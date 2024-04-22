@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUIFoodInformation.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Food Information"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" />
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Label FontSize="18" VerticalOptions="Center" Text="Barcode: " />
+
+                <Entry x:Name="EntryBarcode" Placeholder="Enter an Barcode number"
+                    FontSize="18" Text="" />
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button x:Name="FindBtn" HorizontalOptions="Center"
+                    Text="Find Food" Clicked="FindBtn_Clicked" />
+                <Button x:Name="ScanBarcodeBtn" HorizontalOptions="Center"
+                    Text="Scan Barcode" Clicked="ScanBarcodeBtn_Clicked" />
+            </HorizontalStackLayout>
+
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" />
+
+            <Label x:Name="LabelBrand" FontAttributes="Bold"
+                TextColor="Blue" FontSize="20" Text="Brand: " />
+
+            <Label x:Name="LabelProducrName" TextColor="Green"
+                Text="Product: " />
+
+            <Image x:Name="ImageCover" HorizontalOptions="Center"
+                Source="image_coming_soon.png" />
+
+            <Label x:Name="LabelIngredients" TextColor ="Black"
+                   Text="Ingredients: "/>
+
+            <Label x:Name="LabelCountries" TextColor="Black"
+                   Text="Countries: "/>
+
+            <BoxView HeightRequest="1" BackgroundColor="LightGray" />
+
+            <Label x:Name="LabelNotFound" TextColor ="Red"
+                   Text=""/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
