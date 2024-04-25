@@ -54,24 +54,6 @@ namespace Project
                $"https://imse2113g04.imse.hku.hk/api/v1/asset/?barcode={item.barcode}&format=json";
             var resp = await client.GetStringAsync(ApiUrl);
             ParseInventoryJSON(resp);
-            /*using (JsonDocument document = JsonDocument.Parse(resp))
-            {
-                var rootElement = document.RootElement;
-                if (rootElement.TryGetProperty("name", out var inventory_name))
-                {
-                    LabelName.Text += inventory_name.ToString();
-                }
-
-                if (rootElement.TryGetProperty("description", out var description))
-                {
-                    LabelDescription.Text += description.ToString();
-                }
-
-                if (rootElement.TryGetProperty("inventory_number", out var num))
-                {
-                    LabelLevel.Text += num.ToString();
-                }
-            }*/
         }
         private async Task Show_Toast(string message)
         {
@@ -90,6 +72,7 @@ namespace Project
             LabelName.Text = "Name: ";
             LabelDescription.Text = "Description: ";
             LabelLevel.Text = "Inventory levels: ";
+            LabelType.Text = "Item Type: ";
             LabelNotFound.Text = string.Empty;
         }
 
@@ -104,6 +87,7 @@ namespace Project
                 if (rootElement[0].TryGetProperty("name", out var inventory_name))
                 {
                     LabelName.Text += inventory_name.ToString();
+                    LabelNotFound.Text = "Inventory Found";
                 }
 
                 if (rootElement[0].TryGetProperty("description", out var description))
@@ -114,6 +98,11 @@ namespace Project
                 if (rootElement[0].TryGetProperty("inventory_number", out var num))
                 {
                     LabelLevel.Text += num.ToString();  
+                }
+
+                if (rootElement[0].TryGetProperty("itemType", out var type))
+                {
+                    LabelType.Text += type.ToString();
                 }
 
             }
@@ -140,7 +129,7 @@ namespace Project
                     if (rootElement[0].TryGetProperty("name", out var name))
                     {
 
-                        LabelNotFound.Text = "Found";
+                        LabelNotFound.Text = "Inventory Found";
                     }
                 }
                 ParseInventoryJSON(resp);
@@ -157,13 +146,13 @@ namespace Project
             await Shell.Current.GoToAsync("barcodescanning");
         }
 
-        private async void PDFBtn_Clicked(object sender, EventArgs e)
+        private async void CSVBtn_Clicked(object sender, EventArgs e)
         {
             //create the string first
-            string msg = "name, description, inventory level\n";
+            string msg = "Name, Description, Item Type, Barcode, Inventory Level\n";
 
             string ApiUrl =
-                $"https://imse2113g04.imse.hku.hk/api/v1/asset/?barcode={EntryBarcode.Text.Trim()}&format=json";
+                $"https://imse2113g04.imse.hku.hk/api/v1/asset/?format=json";
             var resp = await client.GetStringAsync(ApiUrl);
 
             using (JsonDocument document = JsonDocument.Parse(resp))
@@ -183,6 +172,18 @@ namespace Project
                         msg += ", ";
                     }
 
+                    if (rootElement[i].TryGetProperty("itemType", out var type))
+                    {
+                        msg += type.ToString();
+                        msg += ", ";
+                    }
+
+                    if (rootElement[i].TryGetProperty("barcode", out var code))
+                    {
+                        msg += code.ToString();
+                        msg += ", ";
+                    }
+
                     if (rootElement[i].TryGetProperty("inventory_number", out var num))
                     {
                         msg += num.ToString();
@@ -194,7 +195,15 @@ namespace Project
             using var stream = new MemoryStream(Encoding.Default.GetBytes(msg));
             // Calling  the SaveAsync method
             var filesaverResult = await filesaver.SaveAsync("Inventory.csv", stream, cancellationTokenSource.Token);
-            await Show_Toast($"The file was saved successfully to location: {filesaverResult.FilePath}");
+            if (filesaverResult.FilePath != null)
+            {
+                await Show_Toast($"The file was saved successfully to location: {filesaverResult.FilePath}");
+            }
+        }
+
+        private void RefreshBtn_Clicked(object sender, EventArgs e)
+        {
+            SetListView();
         }
     }
 

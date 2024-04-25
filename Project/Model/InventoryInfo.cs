@@ -8,9 +8,11 @@ namespace Project.Model
     {
         public string name { get; set; }
         public string description { get; set; }
+        public string itemType { get; set; }
         public string barcode { get; set; }
         public string barcode_image { get; set; }
         public int inventory_number { get; set; }
+
     }
 
 }

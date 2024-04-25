@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\model\\inventoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:model\\inventoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\barcodescanning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -53,7 +53,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Project.csproj",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Project.csproj",
               "RelativeDocumentMoniker": "Project.csproj",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "Login.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-24T16:27:18.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T16:27:18.067Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BarcodeScanning.xaml",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml",
               "RelativeDocumentMoniker": "BarcodeScanning.xaml",
@@ -98,27 +97,27 @@
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDMAAAAjAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACwAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T13:35:25.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAA0AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-24T17:39:27.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BarcodeScanning.xaml.cs",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml.cs",
               "RelativeDocumentMoniker": "BarcodeScanning.xaml.cs",
@@ -131,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
@@ -139,8 +138,7 @@
               "RelativeToolTip": "MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T13:15:24.638Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T13:15:24.638Z"
             },
             {
               "$type": "Document",
@@ -150,8 +148,7 @@
               "ToolTip": "C:\\Users\\benny\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-24T13:19:09.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T13:19:09.876Z"
             }
           ]
         },
@@ -161,13 +158,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InventoryInfo.cs",
               "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Model\\InventoryInfo.cs",
               "RelativeDocumentMoniker": "Model\\InventoryInfo.cs",
               "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Model\\InventoryInfo.cs",
               "RelativeToolTip": "Model\\InventoryInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T17:27:05.325Z",
               "EditorCaption": ""

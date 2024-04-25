@@ -35,8 +35,11 @@
             <Label x:Name="LabelDescription" TextColor="Black"
                        Text ="Description: " />
 
-            <Label x:Name="LabelLevel" TextColor="Green"
+            <Label x:Name="LabelLevel" TextColor="Black"
                 Text="Inventory levels: " />
+
+            <Label x:Name="LabelType" TextColor="Black"
+                   Text="Item Type: " />
 
 
             <BoxView HeightRequest="1" BackgroundColor="LightGray" />
@@ -44,6 +47,8 @@
             <Label x:Name="LabelNotFound" TextColor ="Red"
                    Text=""/>
 
+            <Label x:Name="LabelListView" FontAttributes="Bold"
+                   TextColor="Blue" FontSize="20" Text="Inventories: " />
             <ListView x:Name="listView"
                       SelectionMode="Single"
                       ItemSelected="OnItemSelected">
@@ -56,8 +61,12 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <Button x:Name="PDF" HorizontalOptions="Center"
-                     Text="Output as PDF" Clicked="PDFBtn_Clicked" />
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button x:Name="CSVBtn" HorizontalOptions="Center"
+                     Text="Output as CSV" Clicked="CSVBtn_Clicked" />
+                <Button x:Name="RefreshBtn" HorizontalOptions="Center"
+                    Text="Refresh" Clicked="RefreshBtn_Clicked" />
+            </HorizontalStackLayout>
 
         </VerticalStackLayout>
     </ScrollView>
