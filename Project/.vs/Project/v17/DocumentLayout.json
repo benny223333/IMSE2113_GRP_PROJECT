@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\model\\inventoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:model\\inventoryinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:barcodescanning.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\barcodescanning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:barcodescanning.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|d:\\university\\year_4_sem 2\\imse_2113\\project\\project\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E314E143-ADF5-417A-AD72-FA55AE954CC4}|Project.csproj|solutionrelative:login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benny\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 303,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Project.csproj",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Project.csproj",
+              "RelativeDocumentMoniker": "Project.csproj",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Project.csproj",
+              "RelativeToolTip": "Project.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-24T16:46:46.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Login.xaml",
+              "RelativeDocumentMoniker": "Login.xaml",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Login.xaml",
+              "RelativeToolTip": "Login.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T16:27:18.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BarcodeScanning.xaml",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml",
+              "RelativeDocumentMoniker": "BarcodeScanning.xaml",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml",
+              "RelativeToolTip": "BarcodeScanning.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T13:38:51.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:35:25.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-24T17:39:27.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BarcodeScanning.xaml.cs",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml.cs",
+              "RelativeDocumentMoniker": "BarcodeScanning.xaml.cs",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\BarcodeScanning.xaml.cs",
+              "RelativeToolTip": "BarcodeScanning.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:40:22.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T13:15:24.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\benny\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\benny\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-24T13:19:09.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 297,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryInfo.cs",
+              "DocumentMoniker": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Model\\InventoryInfo.cs",
+              "RelativeDocumentMoniker": "Model\\InventoryInfo.cs",
+              "ToolTip": "D:\\University\\Year_4_Sem 2\\IMSE_2113\\Project\\Project\\Model\\InventoryInfo.cs",
+              "RelativeToolTip": "Model\\InventoryInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T17:27:05.325Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
